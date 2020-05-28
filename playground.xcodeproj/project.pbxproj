@@ -13,6 +13,7 @@
 		AA4060C3247E1DAC009F0858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4060C1247E1DAC009F0858 /* Main.storyboard */; };
 		AA4060C5247E1DAC009F0858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4060C4247E1DAC009F0858 /* Assets.xcassets */; };
 		AA4060C8247E1DAC009F0858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4060C6247E1DAC009F0858 /* LaunchScreen.storyboard */; };
+		AAD3021A247E3440009F8A7B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD30219247E3440009F8A7B /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA4060C4247E1DAC009F0858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4060C7247E1DAC009F0858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA4060C9247E1DAC009F0858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD30219247E3440009F8A7B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AA4060C4247E1DAC009F0858 /* Assets.xcassets */,
 				AA4060C6247E1DAC009F0858 /* LaunchScreen.storyboard */,
 				AA4060C9247E1DAC009F0858 /* Info.plist */,
+				AAD30219247E3440009F8A7B /* PageViewController.swift */,
 			);
 			path = playground;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				AA4060C0247E1DAC009F0858 /* ViewController.swift in Sources */,
 				AA4060BC247E1DAC009F0858 /* AppDelegate.swift in Sources */,
 				AA4060BE247E1DAC009F0858 /* SceneDelegate.swift in Sources */,
+				AAD3021A247E3440009F8A7B /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
