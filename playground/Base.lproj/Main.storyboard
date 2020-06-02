@@ -22,7 +22,19 @@
                     <view key="view" contentMode="scaleToFill" id="MxK-ko-gEw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사용법" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02r-cp-L9k">
+                                <rect key="frame" x="168" y="430" width="78" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="02r-cp-L9k" firstAttribute="centerX" secondItem="MxK-ko-gEw" secondAttribute="centerX" id="14m-3W-0UQ"/>
+                            <constraint firstItem="02r-cp-L9k" firstAttribute="centerY" secondItem="MxK-ko-gEw" secondAttribute="centerY" id="kQM-rp-DdS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Yc1-rh-eZ4"/>
                     </view>
                     <navigationItem key="navigationItem" id="HiT-Bk-ZqE"/>
@@ -38,7 +50,7 @@
                     <view key="view" contentMode="scaleToFill" id="jIz-YR-62Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="JN5-Yj-bWC"/>
                     </view>
                     <navigationItem key="navigationItem" id="2SO-jE-l71"/>
@@ -54,7 +66,27 @@
                     <view key="view" contentMode="scaleToFill" id="fea-0e-ODi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xI6-CU-dVm">
+                                <rect key="frame" x="300" y="817" width="94" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="NLc-4R-nUH"/>
+                                    <constraint firstAttribute="width" constant="94" id="dV3-RF-7RE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="시작하기"/>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="WmN-cg-qhj">
+                                <rect key="frame" x="187.5" y="429.5" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LiW-Lj-sYQ" firstAttribute="trailing" secondItem="xI6-CU-dVm" secondAttribute="trailing" constant="20" id="PiD-h6-ATI"/>
+                            <constraint firstItem="WmN-cg-qhj" firstAttribute="centerY" secondItem="fea-0e-ODi" secondAttribute="centerY" id="T7F-9l-R9A"/>
+                            <constraint firstItem="WmN-cg-qhj" firstAttribute="centerX" secondItem="fea-0e-ODi" secondAttribute="centerX" id="mkr-1z-8XJ"/>
+                            <constraint firstItem="xI6-CU-dVm" firstAttribute="bottom" secondItem="LiW-Lj-sYQ" secondAttribute="bottom" id="tDs-7I-YKJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LiW-Lj-sYQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="vYj-FO-VCz"/>
@@ -62,22 +94,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I1I-nN-wu2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2407" y="872"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="aBz-hn-otv">
-            <objects>
-                <viewController storyboardIdentifier="page04" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PtU-fR-fa3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IpP-v6-TGQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="qBs-T8-Pgp"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ayz-qn-kS9"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YQd-yY-0Vf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3116" y="872"/>
         </scene>
     </scenes>
 </document>
