@@ -13,6 +13,8 @@
 		AA4060C3247E1DAC009F0858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4060C1247E1DAC009F0858 /* Main.storyboard */; };
 		AA4060C5247E1DAC009F0858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4060C4247E1DAC009F0858 /* Assets.xcassets */; };
 		AA4060C8247E1DAC009F0858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4060C6247E1DAC009F0858 /* LaunchScreen.storyboard */; };
+		AAABF582248641F500344C37 /* DoubleTapTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAABF581248641F500344C37 /* DoubleTapTest.storyboard */; };
+		AAABF5852486443C00344C37 /* DoubleTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABF5842486443C00344C37 /* DoubleTapViewController.swift */; };
 		AAD3021A247E3440009F8A7B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD30219247E3440009F8A7B /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		AA4060C4247E1DAC009F0858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4060C7247E1DAC009F0858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA4060C9247E1DAC009F0858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAABF581248641F500344C37 /* DoubleTapTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DoubleTapTest.storyboard; sourceTree = "<group>"; };
+		AAABF5842486443C00344C37 /* DoubleTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTapViewController.swift; sourceTree = "<group>"; };
 		AAD30219247E3440009F8A7B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +62,7 @@
 		AA4060BA247E1DAC009F0858 /* playground */ = {
 			isa = PBXGroup;
 			children = (
+				AAABF5832486441D00344C37 /* DoubleTap */,
 				AA4060BB247E1DAC009F0858 /* AppDelegate.swift */,
 				AA4060BD247E1DAC009F0858 /* SceneDelegate.swift */,
 				AA4060BF247E1DAC009F0858 /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				AAD30219247E3440009F8A7B /* PageViewController.swift */,
 			);
 			path = playground;
+			sourceTree = "<group>";
+		};
+		AAABF5832486441D00344C37 /* DoubleTap */ = {
+			isa = PBXGroup;
+			children = (
+				AAABF581248641F500344C37 /* DoubleTapTest.storyboard */,
+				AAABF5842486443C00344C37 /* DoubleTapViewController.swift */,
+			);
+			path = DoubleTap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +145,7 @@
 				AA4060C8247E1DAC009F0858 /* LaunchScreen.storyboard in Resources */,
 				AA4060C5247E1DAC009F0858 /* Assets.xcassets in Resources */,
 				AA4060C3247E1DAC009F0858 /* Main.storyboard in Resources */,
+				AAABF582248641F500344C37 /* DoubleTapTest.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +158,7 @@
 			files = (
 				AA4060C0247E1DAC009F0858 /* ViewController.swift in Sources */,
 				AA4060BC247E1DAC009F0858 /* AppDelegate.swift in Sources */,
+				AAABF5852486443C00344C37 /* DoubleTapViewController.swift in Sources */,
 				AA4060BE247E1DAC009F0858 /* SceneDelegate.swift in Sources */,
 				AAD3021A247E3440009F8A7B /* PageViewController.swift in Sources */,
 			);
